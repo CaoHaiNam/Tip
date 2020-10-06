@@ -6,3 +6,6 @@ https://medium.com/@ptpuyen1511/s%E1%BB%AD-d%E1%BB%A5ng-k%E1%BA%BFt-h%E1%BB%A3p-
 
 ##### tải dữ liệu vào colab
 https://silicondales.com/tutorials/g-suite/how-to-wget-files-from-google-drive/
+
+##### install requirements
+python3 -m pip install -r requirements.txt
