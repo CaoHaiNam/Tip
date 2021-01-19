@@ -9,3 +9,6 @@ https://silicondales.com/tutorials/g-suite/how-to-wget-files-from-google-drive/
 
 ##### install requirements
 python3 -m pip install -r requirements.txt
+
+##### Giải thích về overfit và regularization
+https://www.datacamp.com/community/tutorials/towards-preventing-overfitting-regularization
