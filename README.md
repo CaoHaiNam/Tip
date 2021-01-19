@@ -12,3 +12,4 @@ python3 -m pip install -r requirements.txt
 
 ##### Giải thích về overfit và regularization
 https://www.datacamp.com/community/tutorials/towards-preventing-overfitting-regularization
+https://viblo.asia/p/cac-phuong-phap-tranh-overfitting-gDVK24AmlLj
