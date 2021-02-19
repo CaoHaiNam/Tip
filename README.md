@@ -16,3 +16,6 @@ https://viblo.asia/p/cac-phuong-phap-tranh-overfitting-gDVK24AmlLj
 
 ##### Giải thích về activation function trong mạng nơ-ron
 https://aicurious.io/posts/2019-09-23-cac-ham-kich-hoat-activation-function-trong-neural-networks/
+
+##### Thao tác với Git
+https://techmaster.vn/posts/35408/huong-dan-day-code-len-github
