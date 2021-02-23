@@ -19,3 +19,7 @@ https://aicurious.io/posts/2019-09-23-cac-ham-kich-hoat-activation-function-tron
 
 ##### Thao tác với Git
 https://techmaster.vn/posts/35408/huong-dan-day-code-len-github
+
+##### Hướng dẫn cài đặt anaconda cơ bản trên ubuntu
+https://www.youtube.com/watch?v=DY0DB_NwEu0&t=440s
+
