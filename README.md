@@ -27,3 +27,34 @@ https://www.youtube.com/watch?v=DY0DB_NwEu0&t=440s
 http://windows.mercenie.com/windows-8/access-files-and-folders-using-command-prompt/#:~:text=To%20open%20%E2%80%9Ccmd%20prompt%E2%80%9D%20type,d%E2%80%9D%20drive%20of%20your%20computer.
 
 ##### Load model dùng tf.keras để load chứ ko dùng keras để tránh lỗi
+
+##### Command line instructions (git)
+You can also upload existing files from your computer using the instructions below.
+
+
+Git global setup
+git config --global user.name "Cao Hai Nam"
+git config --global user.email "namch.hust@gmail.com"
+
+Create a new repository
+git clone https://gitlab.com/NamCaoHai/siameser.git
+cd siameser
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/NamCaoHai/siameser.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/NamCaoHai/siameser.git
+git push -u origin --all
+git push -u origin --tags
