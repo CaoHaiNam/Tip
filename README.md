@@ -29,33 +29,30 @@ http://windows.mercenie.com/windows-8/access-files-and-folders-using-command-pro
 ##### Load model dùng tf.keras để load chứ ko dùng keras để tránh lỗi
 
 ##### Command line instructions (git)
-You can also upload existing files from your computer using the instructions below.
-
-
+###### You can also upload existing files from your computer using the instructions below.<space><space>
 Git global setup<space><space>
-git config --global user.name "Cao Hai Nam"
+git config --global user.name "Cao Hai Nam"<space><space>
+git config --global user.email "namch.hust@gmail.com"<space><space>
 
-git config --global user.email "namch.hust@gmail.com"
+###### Create a new repository<space><space>
+git clone https://gitlab.com/NamCaoHai/siameser.git<space><space>
+cd siameser<space><space>
+touch README.md<space><space>
+git add README.md<space><space>
+git commit -m "add README"<space><space>
+git push -u origin master<space><space>
 
-Create a new repository
-git clone https://gitlab.com/NamCaoHai/siameser.git
-cd siameser
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
+###### Push an existing folder<space><space>
+cd existing_folder<space><space>
+git init<space><space>
+git remote add origin https://gitlab.com/NamCaoHai/siameser.git<space><space>
+git add .<space><space>
+git commit -m "Initial commit"<space><space>
+git push -u origin master<space><space>
 
-Push an existing folder
-cd existing_folder
-git init
-git remote add origin https://gitlab.com/NamCaoHai/siameser.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master
-
-Push an existing Git repository
-cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://gitlab.com/NamCaoHai/siameser.git
-git push -u origin --all
-git push -u origin --tags
+###### Push an existing Git repository<space><space>
+cd existing_repo<space><space>
+git remote rename origin old-origin<space><space>
+git remote add origin https://gitlab.com/NamCaoHai/siameser.git<space><space>
+git push -u origin --all<space><space>
+git push -u origin --tags<space><space>
