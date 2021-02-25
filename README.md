@@ -23,3 +23,5 @@ https://techmaster.vn/posts/35408/huong-dan-day-code-len-github
 ##### Hướng dẫn cài đặt anaconda cơ bản trên ubuntu
 https://www.youtube.com/watch?v=DY0DB_NwEu0&t=440s
 
+##### Truy cập vào ổ đĩa khác từ cmd
+http://windows.mercenie.com/windows-8/access-files-and-folders-using-command-prompt/#:~:text=To%20open%20%E2%80%9Ccmd%20prompt%E2%80%9D%20type,d%E2%80%9D%20drive%20of%20your%20computer.
