@@ -42,8 +42,8 @@ git add README.md<space><space>
 git commit -m "add README"<space><space>
 git push -u origin master<space><space>
 
-###### Push an existing folder<space><space>
-cd existing_folder<space><space>
+###### Push an existing folder <space><space>
+cd existing_folder <space><space>
 git init<space><space>
 git remote add origin https://gitlab.com/NamCaoHai/siameser.git<space><space>
 git add .<space><space>
