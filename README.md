@@ -28,6 +28,13 @@ http://windows.mercenie.com/windows-8/access-files-and-folders-using-command-pro
 
 ##### Load model dùng tf.keras để load chứ ko dùng keras để tránh lỗi
 
+##### Lưu json file
 ```
-print(x)
+with open(filename, 'w', encoding='utf-8') as f:
+  json.dump(x, f, ensure_ascii=False, indent=4)
+```
+##### Load json file
+```
+with open(filename, 'r', encoding='utf-8') as f:
+    new_x_dict = json.load(f)
 ```
