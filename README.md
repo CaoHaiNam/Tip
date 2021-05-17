@@ -27,3 +27,7 @@ https://www.youtube.com/watch?v=DY0DB_NwEu0&t=440s
 http://windows.mercenie.com/windows-8/access-files-and-folders-using-command-prompt/#:~:text=To%20open%20%E2%80%9Ccmd%20prompt%E2%80%9D%20type,d%E2%80%9D%20drive%20of%20your%20computer.
 
 ##### Load model dùng tf.keras để load chứ ko dùng keras để tránh lỗi
+
+```
+print(x)
+```
