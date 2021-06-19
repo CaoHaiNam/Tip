@@ -38,3 +38,13 @@ with open(filename, 'w', encoding='utf-8') as f:
 with open(filename, 'r', encoding='utf-8') as f:
     new_x_dict = json.load(f)
 ```
+##### Write txt file
+```
+outF = open(filename, "w")
+for line in "data":
+  # write line to output file
+    line = ','.join([line[0], str(line[1])])
+    outF.write(line)
+    outF.write("\n")
+outF.close()
+```
