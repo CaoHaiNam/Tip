@@ -48,3 +48,12 @@ for line in "data":
     outF.write("\n")
 outF.close()
 ```
+
+##### Read txt file
+```
+with open(filename) as f:
+    vnw = []
+    for line in f:
+        line = line.strip('\n').lower()
+        vnw.append(line)
+```
