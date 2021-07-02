@@ -57,3 +57,11 @@ with open(filename) as f:
         line = line.strip('\n').lower()
         vnw.append(line)
 ```
+##### Read csv file
+```
+df = pd.read_csv(filename, index_col=False)
+```
+##### Save csv file
+```
+df.to_csv(filename, index=False)
+```
