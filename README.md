@@ -65,3 +65,6 @@ df = pd.read_csv(filename, index_col=False)
 ```
 df.to_csv(filename, index=False)
 ```
+
+
+https://github.com/UKPLab/sentence-transformers/issues/405
