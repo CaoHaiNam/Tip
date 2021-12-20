@@ -68,3 +68,6 @@ df.to_csv(filename, index=False)
 
 
 https://github.com/UKPLab/sentence-transformers/issues/405
+
+##### In số lượng tham số của model pytorch
+https://stackoverflow.com/questions/49201236/check-the-total-number-of-parameters-in-a-pytorch-model
