@@ -71,3 +71,10 @@ https://github.com/UKPLab/sentence-transformers/issues/405
 
 ##### In số lượng tham số của model pytorch
 https://stackoverflow.com/questions/49201236/check-the-total-number-of-parameters-in-a-pytorch-model
+
+https://towardsdatascience.com/linear-algebra-explained-in-the-context-of-deep-learning-8fcb8fca1494
+https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f
+
+
+
+
