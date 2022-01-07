@@ -75,6 +75,9 @@ https://stackoverflow.com/questions/49201236/check-the-total-number-of-parameter
 https://towardsdatascience.com/linear-algebra-explained-in-the-context-of-deep-learning-8fcb8fca1494
 https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f
 
+##### Relation between num of samples and num of parameters
+https://stats.stackexchange.com/questions/329861/what-happens-when-a-model-is-having-more-parameters-than-training-samples
+
 
 
 
