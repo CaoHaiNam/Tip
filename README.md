@@ -81,4 +81,5 @@ https://stats.stackexchange.com/questions/329861/what-happens-when-a-model-is-ha
 ##### Hypernym, hyponym
 Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví dụ dễ hiểu: chào mào, sẻ, chìa vôi là hyponym của chim. Chim là hypernym của chào mào, sẻ, chìa vôi
 
-
+##### phân biêt logits và log probability
+....
