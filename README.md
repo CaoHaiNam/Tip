@@ -78,6 +78,7 @@ https://towardsdatascience.com/probability-and-statistics-explained-in-the-conte
 ##### Relation between num of samples and num of parameters
 https://stats.stackexchange.com/questions/329861/what-happens-when-a-model-is-having-more-parameters-than-training-samples
 
-
+##### Hypernym, hyponym
+Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví dụ dễ hiểu: chào mào, sẻ, chìa vôi là hyponym của chim. Chim là hypernym của chào mào, sẻ, chìa vôi
 
 
