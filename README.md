@@ -89,3 +89,9 @@ Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví d�
 pip install notebook
 sudo snap install jupyter
 ```
+
+##### gcloud tpu usage tutorial
+https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
+```
+accelerate config
+```
