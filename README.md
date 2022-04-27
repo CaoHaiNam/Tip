@@ -83,3 +83,9 @@ Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví d�
 
 ##### phân biêt logits và log probability
 ....
+
+##### install jupyter notebook on server
+```
+pip install notebook
+sudo snap install jupyter
+```
