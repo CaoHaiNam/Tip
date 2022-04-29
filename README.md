@@ -95,3 +95,10 @@ https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
 ```
 accelerate config
 ```
+
+##### command for gcloud tpu
+ssh <br>
+```
+gcloud alpha compute tpus tpu-vm ssh <node_name> --zone europe-west4-a -- -L <port>:localhost:<port>
+```
+
