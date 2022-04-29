@@ -84,10 +84,15 @@ Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví d�
 ##### phân biêt logits và log probability
 ....
 
-##### install jupyter notebook on server
+##### jupyter notebook
+###### install jupyter notebook on server
 ```
 pip install notebook
 sudo snap install jupyter
+```
+###### access by port
+```
+jupyter notebook --port <port_name>
 ```
 
 ##### gcloud tpu usage tutorial
@@ -101,4 +106,5 @@ ssh <br>
 ```
 gcloud alpha compute tpus tpu-vm ssh <node_name> --zone europe-west4-a -- -L <port>:localhost:<port>
 ```
-
+about jupyter notebook
+```
