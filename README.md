@@ -97,6 +97,9 @@ jupyter notebook --port <port_name>
 
 ##### gcloud tpu usage tutorial
 https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
+###### debug
+https://cloud.google.com/blog/topics/developers-practitioners/pytorchxla-performance-debugging-tpu-vm-part-1
+
 ```
 accelerate config
 ```
