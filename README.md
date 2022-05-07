@@ -100,7 +100,7 @@ https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
 ###### debug
 https://cloud.google.com/blog/topics/developers-practitioners/pytorchxla-performance-debugging-tpu-vm-part-1
 ###### colab with tpu
-[ML Frameworks: Hugging Face Accelerate w/ Sylvain Gugger] (https://www.youtube.com/watch?v=A7lnu-ZsFZs&t=1840s)
+[ML Frameworks: Hugging Face Accelerate w/ Sylvain Gugger](https://www.youtube.com/watch?v=A7lnu-ZsFZs&t=1840s)
 
 ```
 accelerate config
