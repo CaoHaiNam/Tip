@@ -113,3 +113,14 @@ gcloud alpha compute tpus tpu-vm ssh <node_name> --zone europe-west4-a -- -L <po
 ```
 about jupyter notebook
 ```
+```
+
+##### Test with transformers
+```
+from transformers import AutoModel, AutoTokenizer
+model = AutoModel.from_pretrained('bert-base-cased')
+tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
+text = 'this is a test'
+inputs = tokenizer(text, return_tensors='pt')
+outputs = model(**inputs)
+```
