@@ -124,3 +124,7 @@ text = 'this is a test'
 inputs = tokenizer(text, return_tensors='pt')
 outputs = model(**inputs)
 ```
+
+
+##### push code to github
+https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
