@@ -123,6 +123,7 @@ tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
 text = 'this is a test'
 inputs = tokenizer(text, return_tensors='pt')
 outputs = model(**inputs)
+ids2token = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
 ```
 
 
