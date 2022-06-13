@@ -129,3 +129,7 @@ ids2token = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
 
 ##### push code to github
 https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
+
+##### kill port ubuntu
+https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-ubuntu
+
