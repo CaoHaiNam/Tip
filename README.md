@@ -137,3 +137,15 @@ https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-u
 ##### tạo môi trường với virtualenv <br>
 virtualenv -p= python-version env-name
 
+##### TRC quota expansion
+If you're interested in additional TRC quota, please let us know how you envision using it and how it would accelerate your research. <br>
+Answer: <br>
+I have lots of experiences to work with server before, and thanks to clear tpu docs, I dont get stuck of using it. In my research, it has supported me a lot. I can train a very large model continuously day by day, which can not be supported by other enviroment such as colab, kaggle... <br>
+
+Detailed feedback about getting started with TRC: <br>
+The guidance is really detailed and easy to understand. I have no troubles to get familiar with it. <br>
+
+What did you do with your TRC quota? (Which models did you train, what datasets did you work with, what code did you write from scratch, etc.)<br>
+train NLP model such as spell correction base on sequence to sequence model, clustering,...<br>
+
+
