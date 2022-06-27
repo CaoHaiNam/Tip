@@ -134,3 +134,6 @@ https://exerror.com/remote-support-for-password-authentication-was-removed-on-au
 sudo kill -9 $(sudo lsof -t -i:port) <br>
 https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-ubuntu
 
+##### tạo môi trường với virtualenv <br>
+virtualenv -p=<python version> <env-name>
+
