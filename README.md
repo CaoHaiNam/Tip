@@ -135,7 +135,9 @@ sudo kill -9 $(sudo lsof -t -i:port) <br>
 https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-ubuntu
 
 ##### tạo môi trường với virtualenv <br>
-virtualenv -p= python-version env-name
+virtualenv -p= python-version env-name <br>
+Một cách kh
+python3 -m venv ./venv
 
 ##### TRC quota expansion
 If you're interested in additional TRC quota, please let us know how you envision using it and how it would accelerate your research. <br>
