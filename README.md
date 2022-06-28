@@ -148,4 +148,5 @@ The guidance is really detailed and easy to understand. I have no troubles to ge
 What did you do with your TRC quota? (Which models did you train, what datasets did you work with, what code did you write from scratch, etc.)<br>
 train NLP model such as spell correction base on sequence to sequence model, clustering,...<br>
 
-
+###### Hướng dẫn tạo API bằng python flask
+https://www.youtube.com/watch?v=fJz3JTEtJJA
