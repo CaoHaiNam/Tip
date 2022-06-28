@@ -136,7 +136,7 @@ https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-u
 
 ##### tạo môi trường với virtualenv <br>
 virtualenv -p= python-version env-name <br>
-Một cách kh
+Một cách khác   <br>
 python3 -m venv ./venv
 
 ##### TRC quota expansion
