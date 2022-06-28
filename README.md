@@ -152,3 +152,8 @@ train NLP model such as spell correction base on sequence to sequence model, clu
 
 ##### Hướng dẫn tạo API bằng python flask
 https://www.youtube.com/watch?v=fJz3JTEtJJA
+
+##### Cách kiểm tra version của 1 thư viện bằng pip
+```
+pip show < lib-name >
+```
