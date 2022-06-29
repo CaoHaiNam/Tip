@@ -174,3 +174,6 @@ https://www.kaggle.com/general/65351
 
 ##### Linux tool
 https://github.com/holianh/Linux_DeepLearning_tools
+
+##### Tất tần tật để test rasa
+https://rasa.com/docs/rasa/testing-your-assistant/
