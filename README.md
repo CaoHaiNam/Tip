@@ -171,3 +171,6 @@ pip show < lib-name >
 
 ##### How to download model from kaggle notebook
 https://www.kaggle.com/general/65351
+
+##### Linux tool
+https://github.com/holianh/Linux_DeepLearning_tools
