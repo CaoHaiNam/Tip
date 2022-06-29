@@ -115,6 +115,8 @@ about jupyter notebook
 ```
 ```
 
+
+#### Tất tần tật về transformers
 ##### Test with transformers
 ```
 from transformers import AutoModel, AutoTokenizer
@@ -126,6 +128,15 @@ outputs = model(**inputs)
 ids2token = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
 ```
 
+##### Save model
+###### transformers
+```
+model.save_pretrained(model_dir)
+```
+###### SentenceTransformers
+```
+model.save(model_dir)
+```
 
 ##### push code to github
 https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
