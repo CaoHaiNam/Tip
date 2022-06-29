@@ -133,7 +133,7 @@ ids2token = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
 ```
 model.save_pretrained(model_dir)
 ```
-###### SentenceTransformers
+###### SentenceTransformer
 ```
 model.save(model_dir)
 ```
@@ -168,3 +168,6 @@ https://www.youtube.com/watch?v=fJz3JTEtJJA
 ```
 pip show < lib-name >
 ```
+
+##### How to download model from kaggle notebook
+https://www.kaggle.com/general/65351
