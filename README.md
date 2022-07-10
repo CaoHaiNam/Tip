@@ -114,7 +114,7 @@ gcloud alpha compute tpus tpu-vm ssh <node_name> --zone europe-west4-a -- -L <po
 about jupyter notebook
 ```
 ```
-
+chạy accelerate thì ko chạy được jax
 
 #### Tất tần tật về transformers
 ##### Test with transformers
