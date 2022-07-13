@@ -177,3 +177,6 @@ https://github.com/holianh/Linux_DeepLearning_tools
 
 ##### Tất tần tật để test rasa
 https://rasa.com/docs/rasa/testing-your-assistant/
+
+##### Python – Import module outside directory
+https://www.geeksforgeeks.org/python-import-module-from-different-directory/
