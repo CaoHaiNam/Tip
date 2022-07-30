@@ -142,7 +142,14 @@ model.save(model_dir)
 https://exerror.com/remote-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/
 
 ##### kill port ubuntu
-sudo kill -9 $(sudo lsof -t -i:port) <br>
+```
+sudo lsof -i tcp:port
+```
+sẽ hiện ra các process id (PID) đang dùng port này <br>
+kill các PID này 
+```
+sudo kill PID
+```
 https://stackoverflow.com/questions/9346211/how-to-kill-a-process-on-a-port-on-ubuntu
 
 ##### tạo môi trường với virtualenv <br>
