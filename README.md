@@ -187,3 +187,6 @@ https://rasa.com/docs/rasa/testing-your-assistant/
 
 ##### Python – Import module outside directory
 https://www.geeksforgeeks.org/python-import-module-from-different-directory/
+
+##### Đẩy model lên HuggingFace
+https://huggingface.co/docs/transformers/v4.16.2/en/model_sharing
