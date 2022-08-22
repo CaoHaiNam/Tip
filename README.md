@@ -190,3 +190,6 @@ https://www.geeksforgeeks.org/python-import-module-from-different-directory/
 
 ##### Đẩy model lên HuggingFace
 https://huggingface.co/docs/transformers/v4.16.2/en/model_sharing
+
+##### Hướng dẫn sử dụng 1.1.1.1 trên ubuntu
+https://itrum.org/threads/huong-dan-cai-cloudflare-warp-1-1-1-1-va-su-dung-tren-linux.2207/
