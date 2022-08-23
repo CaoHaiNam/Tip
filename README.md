@@ -193,3 +193,6 @@ https://huggingface.co/docs/transformers/v4.16.2/en/model_sharing
 
 ##### Hướng dẫn sử dụng 1.1.1.1 trên ubuntu
 https://itrum.org/threads/huong-dan-cai-cloudflare-warp-1-1-1-1-va-su-dung-tren-linux.2207/
+
+##### 20 câu lệnh phổ biến trong linux
+https://www.kdnuggets.com/2022/06/20-basic-linux-commands-data-science-beginners.html?fbclid=IwAR0djUjBmlkpdhrBJevH-kshtVGjqkKg0LoYO9_7mjEtSUauKbdUqQcGfFM
