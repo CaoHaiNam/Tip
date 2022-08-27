@@ -203,3 +203,5 @@ https://viblo.asia/helps/cach-su-dung-markdown-bxjvZYnwkJZ
 ##### ssh tpus
 * gcloud alpha compute tpus tpu-vm ssh mlops --zone europe-west4-a -- -L 1047:localhost:1047
 * gcloud alpha compute tpus tpu-vm ssh node-1 --zone europe-west4-a -- -L 8888:localhost:8888
+* gcloud alpha compute tpus tpu-vm ssh comment-generation --zone europe-west4-a -- -L 1052:localhost:1052
+* gcloud alpha compute tpus tpu-vm ssh address-standardization --zone europe-west4-a -- -L 1056:localhost:1056
