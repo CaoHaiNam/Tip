@@ -196,3 +196,6 @@ https://itrum.org/threads/huong-dan-cai-cloudflare-warp-1-1-1-1-va-su-dung-tren-
 
 ##### 20 câu lệnh phổ biến trong linux
 https://www.kdnuggets.com/2022/06/20-basic-linux-commands-data-science-beginners.html?fbclid=IwAR0djUjBmlkpdhrBJevH-kshtVGjqkKg0LoYO9_7mjEtSUauKbdUqQcGfFM
+
+##### Cách viết file markdown
+https://viblo.asia/helps/cach-su-dung-markdown-bxjvZYnwkJZ
