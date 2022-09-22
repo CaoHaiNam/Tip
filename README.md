@@ -203,3 +203,6 @@ https://viblo.asia/helps/cach-su-dung-markdown-bxjvZYnwkJZ
 
 ##### How to generate text huggingface
 https://huggingface.co/blog/how-to-generate
+
+##### Lỗi tpu đã gặp
+1. https://github.com/pytorch/xla/issues/3132
