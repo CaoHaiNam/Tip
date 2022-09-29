@@ -158,15 +158,26 @@ Một cách khác   <br>
 python3 -m venv ./venv
 
 ##### TRC quota expansion
-If you're interested in additional TRC quota, please let us know how you envision using it and how it would accelerate your research. <br>
+* If you're interested in additional TRC quota, please let us know how you envision using it and how it would accelerate your research. <br>
 Answer: <br>
 I have lots of experiences to work with server before, and thanks to clear tpu docs, I dont get stuck of using it. In my research, it has supported me a lot. I can train a very large model continuously day by day, which can not be supported by other enviroment such as colab, kaggle... <br>
+I have lots of experiences to work with server before, and thanks to clear tpu docs, I do not get stuck of using it. In my research, it has supported me a lot. My research interest is Natural Language Processing, I can train a very large model such as BERT-base model or GPT2-base model continuously day by day, which can not be supported by other environment such as colab, kaggle... With TPU, there is no barriers to me in order to access, update, dominate, train or fine tune SOTA models in NLP, even it is a very big model. <br>
 
-Detailed feedback about getting started with TRC: <br>
+* Detailed feedback about getting started with TRC: <br>
 The guidance is really detailed and easy to understand. I have no troubles to get familiar with it. <br>
 
-What did you do with your TRC quota? (Which models did you train, what datasets did you work with, what code did you write from scratch, etc.)<br>
-train NLP model such as spell correction base on sequence to sequence model, clustering,...<br>
+* What did you do with your TRC quota? (Which models did you train, what datasets did you work with, what code did you write from scratch, etc.)<br>
+1. train NLP model such as spell correction base on sequence to sequence model, clustering,...<br>
+
+2. I fine tune GPT2-base model (https://huggingface.co/NlpHUST/gpt2-vietnamese) for Vietnamese comment generation task. 
+
+3. Dataset was crawled and pre-processed and push to huggingface hub (https://huggingface.co/datasets/CaoHaiNam/data_comment)
+
+4. My source code is based on transformers repo (https://github.com/huggingface/transformers) of HuggingFace team for training and fine-tuning task.
+
+* Are you working on any research papers, blog posts, or other publications based on your use of TRC? If so, please let us know, and please include links here if available.
+1. Our team have finished a research relevant to financial domain name "MFinBERT: Multilingual Pretrained Language Model For Financial Domain". Paper is accepted in KSE conference, an international forum for presentations, discussions, and exchanges of state-of-the-art research, development, and applications in the field of knowledge and systems engineering. (https://kse2022.tbd.edu.vn/). Because this conference has not happened yet, so I can not share you the paper link. If you care about it, I could send you PDF version.
+2. In addition, I am training a siamese-base model for address standardization. This work are skill in processing.
 
 ##### Hướng dẫn tạo API bằng python flask
 https://www.youtube.com/watch?v=fJz3JTEtJJA
