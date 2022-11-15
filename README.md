@@ -85,15 +85,16 @@ Thực ra đây là 2 khái niệm có ý nghĩa gần tương tự nhau. Ví d�
 ....
 
 ##### jupyter notebook
-###### install jupyter notebook on server
+* install jupyter notebook on server
 ```
 pip install notebook
 sudo snap install jupyter
 ```
-###### access by port
+* access by port
 ```
 jupyter notebook --port <port_name>
 ```
+* Link fix loi: https://stackoverflow.com/questions/42648610/error-when-executing-jupyter-notebook-no-such-file-or-directory
 
 ##### gcloud tpu usage tutorial
 https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
