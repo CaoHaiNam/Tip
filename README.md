@@ -94,7 +94,7 @@ sudo snap install jupyter
 ```
 jupyter notebook --port <port_name>
 ```
-* Link fix loi: https://stackoverflow.com/questions/42648610/error-when-executing-jupyter-notebook-no-such-file-or-directory
+* Link fix lỗi: https://stackoverflow.com/questions/42648610/error-when-executing-jupyter-notebook-no-such-file-or-directory
 
 ##### gcloud tpu usage tutorial
 https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm
