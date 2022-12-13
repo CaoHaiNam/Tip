@@ -221,3 +221,6 @@ https://huggingface.co/blog/how-to-generate
 
 ##### Test code
 Flake8
+
+##### DE
+polar (https://pola-rs.github.io/polars-book/user-guide/introduction.html?fbclid=IwAR2yIqZso6CyygxgayQZQyrQ-BZpvSZMY_CXfkwPm7CDs9xyibX-q9_9XaE), pandasparalell
