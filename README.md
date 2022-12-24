@@ -227,4 +227,11 @@ https://huggingface.co/blog/how-to-generate
 Flake8
 
 ##### DE
-polar (https://pola-rs.github.io/polars-book/user-guide/introduction.html?fbclid=IwAR2yIqZso6CyygxgayQZQyrQ-BZpvSZMY_CXfkwPm7CDs9xyibX-q9_9XaE), pandasparalell
+* polar (https://pola-rs.github.io/polars-book/user-guide/introduction.html?fbclid=IwAR2yIqZso6CyygxgayQZQyrQ-BZpvSZMY_CXfkwPm7CDs9xyibX-q9_9XaE) 
+* pandasparalell
+
+##### Kaggle Notebook for Data Science
+1. Clustering
+* https://www.kaggle.com/code/marcinrutecki/clustering-methods-comprehensive-study/notebook
+
+2. Data Analysis
