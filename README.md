@@ -229,6 +229,8 @@ Flake8
 ##### DE
 * polar (https://pola-rs.github.io/polars-book/user-guide/introduction.html?fbclid=IwAR2yIqZso6CyygxgayQZQyrQ-BZpvSZMY_CXfkwPm7CDs9xyibX-q9_9XaE) 
 * pandasparalell
+* kafka
+1. https://viblo.asia/p/002-apache-kafka-topic-partition-offset-va-broker-m68Z0eEMlkG
 
 ##### Kaggle Notebook for Data Science
 1. Clustering
