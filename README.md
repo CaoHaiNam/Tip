@@ -237,3 +237,6 @@ Flake8
 * https://www.kaggle.com/code/marcinrutecki/clustering-methods-comprehensive-study/notebook
 
 2. Data Analysis
+
+###### KL và cross entropy
+Dựa vào hàm loss là thấy sự khác nhau và tại sao trong bài toán classification chỉ cần dùng cross entropy là đc rồi. https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html
