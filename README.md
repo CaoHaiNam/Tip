@@ -240,7 +240,7 @@ Flake8
 
 ##### KL và cross entropy
 * Dựa vào hàm loss là thấy sự khác nhau và tại sao trong bài toán classification chỉ cần dùng cross entropy là đc rồi. https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html
-* Forward and Reverse KL: An explaination
+* Forward and Reverse KL: An explaination <br>
 https://dibyaghosh.com/blog/probability/kldivergence.html
 
 ##### Devops doc
