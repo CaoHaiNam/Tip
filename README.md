@@ -239,7 +239,9 @@ Flake8
 2. Data Analysis
 
 ##### KL và cross entropy
-Dựa vào hàm loss là thấy sự khác nhau và tại sao trong bài toán classification chỉ cần dùng cross entropy là đc rồi. https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html
+* Dựa vào hàm loss là thấy sự khác nhau và tại sao trong bài toán classification chỉ cần dùng cross entropy là đc rồi. https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html
+* Forward and Reverse KL: An explaination
+https://dibyaghosh.com/blog/probability/kldivergence.html
 
 ##### Devops doc
 * https://techmaster.vn/posts/37441/cam-nang-cac-tap-lenh-linux-ma-ban-hay-dung?fbclid=IwAR3b1rS0pwnBEZM5A6kGIFsVAYpJEPPdV2OsyfzrbSAlUQgYRh-aN0XjCSE
