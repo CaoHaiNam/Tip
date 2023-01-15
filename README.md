@@ -247,3 +247,6 @@ https://notesonai.com/KL+Divergence
 
 ##### Devops doc
 * https://techmaster.vn/posts/37441/cam-nang-cac-tap-lenh-linux-ma-ban-hay-dung?fbclid=IwAR3b1rS0pwnBEZM5A6kGIFsVAYpJEPPdV2OsyfzrbSAlUQgYRh-aN0XjCSE
+
+##### gcloud 
+https://cloud.google.com/sdk/auth_success
