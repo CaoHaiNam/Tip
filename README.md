@@ -254,5 +254,17 @@ https://cloud.google.com/sdk/auth_success
 ##### Hướng dẫn lưu cache của huggingface dataset trên máy TPU 
 1. Tạo 1 folder, ví dụ tên là test 
 ```
-mkdir test
+mkdir /home/namch_hust1_gmail_com/test
+```
+2. Đây là folder chứa cache. Mount folder này vào trong ram, và truyền vào size của folder, ví dụ trong trường hợp này là 10MB.
+```
+sudo mount -t tmpfs -o size=10M,mode=0755 tmpfs /home/namch_hust1_gmail_com/test
+```
+3. Chuyển từ quyền root sang quyền user (namch_hust1_gmail_com) cho folder này 
+```
+sudo chown namch_hust1_gmail_com test 
+```
+Đã xong. Bây giờ, load datasets, truyền giá trị cache_dir chính là folder vừa tạo 
+```python 
+dataset = datasets.load_dataset('CaoHaiNam/sonnv_dataset_idea_1k', use_auth_token=True, cache_dir='/home/namc_hust1_gmail_com/test')
 ```
