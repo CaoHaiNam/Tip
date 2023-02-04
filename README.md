@@ -268,3 +268,5 @@ sudo chown namch_hust1_gmail_com test
 ```python 
 dataset = datasets.load_dataset('CaoHaiNam/sonnv_dataset_idea_1k', use_auth_token=True, cache_dir='/home/namc_hust1_gmail_com/test')
 ```
+##### Check folder size
+Dùng lệnh ncdu 
