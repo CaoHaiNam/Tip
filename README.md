@@ -178,11 +178,16 @@ The guidance is really detailed and easy to understand. I have no troubles to ge
 
 5. Currently, I am working with diffusion model for image generation task. In addition, I am training a Vietnamese spell correction model based on sequence to sequence architecture which is available in huggingface library such as BART (https://huggingface.co/docs/transformers/model_doc/bart) or T5 (https://huggingface.co/docs/transformers/model_doc/t5). 
 
+6. training a Vietnamese Summarization Model for the community. I start with vinai/bartpho-syllable, a pre-trained Sequence-to-Sequence  Model based on Bart for Vietnamese. Data for fine-tuning the summary task is available here: https://huggingface.co/datasets/CaoHaiNam/summarization_wikilingua_vi 
+
+7. training a Roberta model for the Vietnamese community. Data for training is available here: imthanhlv/binhvq_dedup
+
 * Are you working on any research papers, blog posts, or other publications based on your use of TRC? If so, please let us know, and please include links here if available.
 1. Our team have finished a research relevant to financial domain name "MFinBERT: Multilingual Pretrained Language Model For Financial Domain". Paper is accepted in KSE conference, an international forum for presentations, discussions, and exchanges of state-of-the-art research, development, and applications in the field of knowledge and systems engineering. (https://kse2022.tbd.edu.vn/). Because this conference has not happened yet, so I can not share you the paper link. If you care about it, I could send you PDF version.
 2. In addition, I am training a siamese-base model for address standardization. This work are skill in processing.
 3. Our publication now is available here: https://ieeexplore.ieee.org/document/9953749, a pre-trained language model for financial domain.
 4. At the moment, our team are carrying out image generation task based on diffusion model (https://github.com/huggingface/diffusers), particularly, I am working in a finance company.  For each advertisement campaign (new product release, promotion on holiday), we would like to send interesting image along with description. So input of our model is a description, and output is a image corresponding to text. 
+5. Currently, I am improving the token classification module in our paper: https://arxiv.org/abs/2210.14607. This model aims to classify whether a term is an occupational skill or not. I just use a simple NN for this purpose before and now I would like to use Bert-based model for that.
 
 ##### Hướng dẫn tạo API bằng python flask
 https://www.youtube.com/watch?v=fJz3JTEtJJA
