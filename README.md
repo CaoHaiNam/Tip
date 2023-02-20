@@ -277,4 +277,5 @@ dataset = datasets.load_dataset('CaoHaiNam/sonnv_dataset_idea_1k', use_auth_toke
 Dùng lệnh ncdu 
 
 ##### Triển khai service bằng systemd
-https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
+* https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
+* https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
