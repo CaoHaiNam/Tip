@@ -280,3 +280,4 @@ Dùng lệnh ncdu
 * https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
 * https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 * https://www.digitalocean.com/community/tutorials/how-to-deploy-node-js-applications-using-systemd-and-nginx
+* https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/
