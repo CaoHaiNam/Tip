@@ -257,7 +257,7 @@ https://notesonai.com/KL+Divergence
 https://cloud.google.com/sdk/auth_success
 
 ##### Hướng dẫn lưu cache của huggingface dataset trên máy TPU 
-1. Tạo 1 folder, ví dụ tên là test 
+1. Tạo 1 folder, ví dụ tên là cache_datasets 
 ```
 mkdir /home/namch_hust1_gmail_com/cache_datasets
 ```
