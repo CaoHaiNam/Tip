@@ -271,7 +271,7 @@ sudo chown namch_hust1_gmail_com cache_datasets
 ```
 Đã xong. Bây giờ, load datasets, truyền giá trị cache_dir chính là folder vừa tạo 
 ```python 
-dataset = datasets.load_dataset('CaoHaiNam/sonnv_dataset_idea_1k', use_auth_token=True, cache_dir='/home/namc_hust1_gmail_com/cache_datasets/datasets')
+dataset = datasets.load_dataset('CaoHaiNam/sonnv_dataset_idea_1k', use_auth_token=True, cache_dir='/home/namch_hust1_gmail_com/cache_datasets/datasets')
 ```
 ##### Check folder size
 Dùng lệnh ncdu 
