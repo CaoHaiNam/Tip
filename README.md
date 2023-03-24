@@ -281,3 +281,10 @@ Dùng lệnh ncdu
 * https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 * https://www.digitalocean.com/community/tutorials/how-to-deploy-node-js-applications-using-systemd-and-nginx
 * https://www.tecmint.com/list-all-running-services-under-systemd-in-linux/
+
+##### Install lfs 
+```
+!curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+!sudo apt-get install git-lfs
+!git lfs install
+```
