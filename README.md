@@ -1,3 +1,6 @@
+##### push code lên nhiều nhánh cùng 1 lúc.
+https://viblo.asia/p/git-nang-cao-git-cherry-pick-RQqKLQ9pZ7z
+
 ##### Cách sử dụng markdown cho file readme
 https://viblo.asia/helps/cach-su-dung-markdown-bxjvZYnwkJZ
 
