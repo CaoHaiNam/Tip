@@ -1,3 +1,8 @@
+##### tạo môi trường ảo trên mac os 
+```
+python3 -m venv myenv
+```
+
 ##### push code lên nhiều nhánh cùng 1 lúc.
 https://viblo.asia/p/git-nang-cao-git-cherry-pick-RQqKLQ9pZ7z
 
