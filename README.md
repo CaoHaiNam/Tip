@@ -1,3 +1,8 @@
+##### ssh to gcloud instance
+```
+ssh <YOUR_USERNAME>@<YOUR_TPU_INSTANCE_PUBLIC_IP> -i <YOUR_PRIVATE_KEY_PATH>
+```
+
 ##### tạo môi trường ảo trên mac os 
 ```
 python3 -m venv myenv
