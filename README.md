@@ -1,3 +1,9 @@
+##### tạo và clone folder (model, dataset) trên huggingface
+```
+huggingface-cli repo create idea-generation-dataset_v1-0 <br>
+git clone https://huggingface.co/CaoHaiNam/idea-generation-dataset_v1-0 <br>
+```
+
 ##### setup device to run model
 ```
 export CUDA_VISIBLE_DEVICES=""
