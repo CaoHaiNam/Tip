@@ -1,3 +1,33 @@
+##### setup device to run model
+```
+export CUDA_VISIBLE_DEVICES=""
+```
+
+##### chạy lệnh để active gcloud-tpu
+```
+export XRT_TPU_CONFIG="localservice;0;localhost:51011"
+```
+
+##### check folder size
+```
+ls -l --block-size=M
+```
+
+##### lệnh để show hidden file trong khi chay jupyterlab server
+```
+jupyter lab --port 8003 --ContentsManager.allow_hidden True
+```
+
+##### cách thông nhiều port từ server về local qua giao thức ssh
+```
+ssh root@202.134.19.49 -L 8081:localhost:8081 -L 9870:localhost:9870 -L 8080:localhost:8080
+```
+
+##### Chạy lệnh này để clone git trên server, trong trường hợp clone bị lỗi
+```
+git config --global http.sslverify "false"
+```
+
 ##### ssh to gcloud instance
 ```
 ssh <YOUR_USERNAME>@<YOUR_TPU_INSTANCE_PUBLIC_IP> -i <YOUR_PRIVATE_KEY_PATH>
