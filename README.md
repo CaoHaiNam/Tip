@@ -1,3 +1,30 @@
+##### cách cài đặt vncorenlp
+1. cài đặt java
+   ```
+   sudo apt install --reinstall openjdk-8-jre-headless
+   ```
+2. cài biến môi trường
+   ```
+   export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+   export JVM_PATH="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so"
+   ```
+3. cài thư viện
+   ```
+   pip install py_vncorenlp
+   ```
+4. tạo folder để lưu model
+   ```
+   mkdir vncorenlp
+   ```
+5. test segmentation
+   ```
+   import py_vncorenlp
+   rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='vncorenlp/')
+   text = "Ông Nguyễn Khắc Chúc  đang làm việc tại Đại học Quốc gia Hà Nội. Bà Lan, vợ ông Chúc, cũng làm việc tại đây."
+   output = rdrsegmenter.word_segment(text)
+   print(output)
+   ```
+
 ##### tạo và clone folder (model, dataset) trên huggingface
 ```
 huggingface-cli repo create idea-generation-dataset_v1-0
