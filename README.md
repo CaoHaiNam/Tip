@@ -19,6 +19,8 @@
 5. test segmentation
    ```
    import py_vncorenlp
+   # download model
+   py_vncorenlp.download_model(save_dir='vncorenlp')
    rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='vncorenlp/')
    text = "Ông Nguyễn Khắc Chúc  đang làm việc tại Đại học Quốc gia Hà Nội. Bà Lan, vợ ông Chúc, cũng làm việc tại đây."
    output = rdrsegmenter.word_segment(text)
