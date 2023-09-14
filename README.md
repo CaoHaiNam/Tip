@@ -1,3 +1,6 @@
+##### Compiled và interpreted language programing
+https://howkteam.vn/course/goc-lap-trinh-vien/compiled-va-interpreted-la-gi-uu-diem-va-nhuoc-diem-3927
+
 ##### cách cài đặt vncorenlp
 1. cài đặt java
    ```
