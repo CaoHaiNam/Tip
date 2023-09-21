@@ -298,9 +298,18 @@ https://www.kaggle.com/general/65351
 ##### Linux tool
 https://github.com/holianh/Linux_DeepLearning_tools
 
-##### Tất tần tật để test rasa
+##### rasa
+###### Tất tần tật để test rasa
 https://rasa.com/docs/rasa/testing-your-assistant/
-
+###### load và test rasa model
+```python3
+from rasa.core.agent import Agent
+import asyncio
+agent = Agent.load(model_path)
+message = "something"
+result = agent.parse_message(message)
+asyncio.run(result)
+```
 ##### Python – Import module outside directory
 https://www.geeksforgeeks.org/python-import-module-from-different-directory/
 
