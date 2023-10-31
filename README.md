@@ -1,3 +1,13 @@
+##### chạy fastapi và flask
+**fastapi**
+```
+python3 -m uvicorn app_fastapi:app --reload --host localhost --port 3000 # tạo file app_fastapi.py
+```
+**flask**
+```
+python3 -m flask --app app_flask run --port 3000 --host localhost --reload # tạo file app_flask.py
+```
+
 ##### Compiled và interpreted language programing
 https://howkteam.vn/course/goc-lap-trinh-vien/compiled-va-interpreted-la-gi-uu-diem-va-nhuoc-diem-3927
 
