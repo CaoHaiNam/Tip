@@ -1,3 +1,12 @@
+##### scp file from local to tpu machine
+```
+gcloud alpha compute tpus tpu-vm scp ~/my-file my-tpu: 
+```
+Ex: my-tpu = namch_hust1_gmail_com@node-4
+```
+gcloud alpha compute tpus tpu-vm scp faq_v1_db_add_chatGPT_data.json namch_hust1_gmail_com@node-4:/home/namch_hust1_gmail_com
+```
+
 ##### chạy fastapi và flask
 **fastapi**
 ```
