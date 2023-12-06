@@ -1,3 +1,47 @@
+##### docker sample
+```
+FROM ubuntu:20.04
+ENV DEBIAN_FRONTEND=noninteractive
+
+#Install libs
+RUN apt-get update && apt-get install -y \
+            g++ \
+            build-essential \
+            cmake \         
+            pkg-config \
+            python3-dev \
+            python3-pip \
+            nano \
+            libgl1-mesa-glx
+
+# Language and timezone
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+ENV TZ=Asia/Ho_Chi_Minh
+RUN apt-get install -y tzdata && echo $TZ > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+
+# Install packages
+RUN pip3 install --upgrade pip
+RUN pip3 install flask flask_cors flask_restplus Werkzeug==0.16.0 gunicorn eventlet pyjwt pymongo
+RUN pip3 install opencv-python opencv-contrib-python
+RUN pip3 install tensorflow-serving-api tensorflow==2.3.2
+RUN pip3 install fuzzywuzzy python-Levenshtein nltk==3.6.1 scikit-learn==0.24.0 scikit-image unidecode
+RUN apt-get install -y libzbar0
+RUN pip3 install python-logstash mrz pyzbar dbr==9.0 imutils
+RUN pip3 install markupsafe==2.0.1 flask==1.1.4 Werkzeug==0.16.0 mrz-scanner-sdk
+RUN pip3 install mediapipe
+
+# Add
+ADD . /api/
+WORKDIR /api/
+RUN chmod 777 run_production_server.sh
+RUN mkdir /public
+RUN mkdir -p static
+RUN ln -s /api/static/ /public/
+
+CMD ./run_production_server.sh
+```
+
 ##### scp file from local to tpu machine
 ```
 gcloud alpha compute tpus tpu-vm scp ~/my-file my-tpu: 
