@@ -2,7 +2,7 @@
 ```
 ngrok http port --domain domain_name
 ```
-Ex:
+Ví dụ:
 ```
 ngrok http 3000 --domain wondrous-centrally-alpaca.ngrok-free.app
 ```
