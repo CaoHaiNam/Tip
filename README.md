@@ -2,8 +2,9 @@
 ```
 ngrok http port --domain domain_name <br>
 ```
+Ex:
 ```
-Ex: ngrok http 3000 --domain wondrous-centrally-alpaca.ngrok-free.app
+ngrok http 3000 --domain wondrous-centrally-alpaca.ngrok-free.app
 ```
 
 ##### docker sample
