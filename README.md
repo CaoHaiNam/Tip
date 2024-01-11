@@ -1,6 +1,6 @@
 ##### chạy ngrok với domain
 ```
-ngrok http port --domain domain_name <br>
+ngrok http port --domain domain_name
 ```
 Ex:
 ```
