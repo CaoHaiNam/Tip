@@ -1,3 +1,10 @@
+##### chạy ngrok với domain
+```
+ngrok http port --domain domain_name <br>
+```
+Ex: ngrok http 3000 --domain wondrous-centrally-alpaca.ngrok-free.app
+
+
 ##### docker sample
 ```
 FROM ubuntu:20.04
