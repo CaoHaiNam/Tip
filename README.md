@@ -1,3 +1,6 @@
+##### multiple negative ranking loss
+https://www.pinecone.io/learn/series/nlp/fine-tune-sentence-transformers-mnr/
+
 ##### chạy ngrok với domain
 ```
 ngrok http port --domain domain_name
