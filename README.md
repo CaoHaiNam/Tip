@@ -1,3 +1,6 @@
+##### cài đặt thư viện từ source trên kaggle
+https://www.kaggle.com/code/kononenko/pip-install-once
+
 ##### multiple negative ranking loss
 https://www.pinecone.io/learn/series/nlp/fine-tune-sentence-transformers-mnr/
 
