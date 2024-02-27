@@ -106,7 +106,7 @@ https://howkteam.vn/course/goc-lap-trinh-vien/compiled-va-interpreted-la-gi-uu-d
 6. test segmentation
    ```
    import py_vncorenlp
-   rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='vncorenlp/')
+   rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='/absolute/path/to/vncorenlp/')
    text = "Ông Nguyễn Khắc Chúc  đang làm việc tại Đại học Quốc gia Hà Nội. Bà Lan, vợ ông Chúc, cũng làm việc tại đây."
    output = rdrsegmenter.word_segment(text)
    print(output)
