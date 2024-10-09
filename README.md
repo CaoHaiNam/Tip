@@ -1,3 +1,10 @@
+##### How to fix Import could not be resolved from source Pylance
+1. .py file <br>
+   https://www.youtube.com/watch?v=5ud9Y2uB4PY
+2. .ipynb file <br>
+   làm tương tự, nếu ko đc thì tắt đi bật lại là được. Và chắc chắn rằng thư viện đã được cài.
+   
+
 ##### cài đặt thư viện từ source trên kaggle
 https://www.kaggle.com/code/kononenko/pip-install-once
 
